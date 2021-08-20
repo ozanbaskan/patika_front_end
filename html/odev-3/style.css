@@ -1,0 +1,104 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1em;
+}
+
+.flex-row-space-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.height-auto {
+  height: auto !important;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.center-with-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#search-engine {
+  margin-bottom: 150px;
+  width: 100%;
+}
+
+#input-field {
+  background-color: rgb(235, 235, 235);
+}
+
+#input-field input {
+  width: 350px;
+}
+
+#inf-part div {
+  width: 100%;
+  height: 90px;
+}
+
+#inf-part div:nth-of-type(2) {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+
+.background-turquoise-clear {
+  background-color: rgb(118, 250, 235);
+}
+
+.background-turquoise-middle {
+  background-color: rgb(61, 228, 208);
+}
+
+.background-turquoise-dark {
+  background-color: rgb(49, 172, 157);
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+}
