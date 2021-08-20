@@ -1,0 +1,32 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  border-bottom: 1px solid brown;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+  font-size: 12px;
+}
+
+nav ul li a {
+  font-size: 20px;
+}
+
+article hr {
+  height: 1px;
+  width: 10px;
+}
+
+#main-page-articles li {
+  display: inline;
+  margin-left: 20px;
+}
