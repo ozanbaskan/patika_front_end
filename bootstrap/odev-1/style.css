@@ -1,0 +1,91 @@
+li a {
+  color: seashell;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: tan;
+}
+
+main a {
+  color: rgb(97, 125, 219);
+}
+
+main a:hover {
+  text-decoration: none;
+  color: rgb(17, 0, 253);
+}
+
+body::after {
+  content: "";
+  background: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-38.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 40px;
+}
+
+nav {
+  padding-top: 30px;
+  border-bottom: 1px groove seashell;
+  background-color: rgba(55, 55, 55, 0.9);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+main {
+  margin-top: 10px;
+  color: seashell;
+
+  height: 100%;
+  text-align: center;
+}
+
+.jumbotron {
+  color: black;
+}
+
+main p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#video {
+  display: block;
+  margin: 0 auto;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  border: 2px groove black;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  iframe {
+    width: 420px;
+    height: 215px;
+  }
+}
